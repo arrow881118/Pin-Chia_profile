@@ -5,10 +5,10 @@ import Triple from '../assets/triple.png'
 
 const Cards = () => {
     return (
-        <div className='w-full py-10 px-4 rounded-lg bg-white text-black'>
+        <div className='w-full py-10 px-4 rounded-lg bg-white text-black flex' id='project'>
             <span class="text-3xl font-bold text-black"> Project.</span>
-            <div className='py-16 max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
-                <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
+            <div className='py-28 max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
+                <div className=' w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300 '>
                     <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Single} alt="/" />
                     <h2 className='text-3xl font-bold text-center py-8'>Traffic Simulator</h2>
                     <p className='text-gray-400 text-center text-xl font-medium'>For the purpose of driving concept education</p>

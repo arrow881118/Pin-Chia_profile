@@ -5,15 +5,15 @@ import Triple from '../assets/triple.png'
 
 const Cards = () => {
     return (
-        <div className='w-full py-10 px-4 rounded-lg bg-blue-50 text-black'>
+        <div className='w-full py-10 px-4 rounded-lg bg-blue-50 text-black flex' id='hobby'>
             <span class="text-3xl font-bold text-black"> Hobby.</span>
-            <div className='py-16 max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
+            <div className='py-28 max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
                     <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Single} alt="/" />
-                    <h2 className='text-2xl font-bold text-center py-8'>Motorcycle Repairment</h2>
-                    <p className='text-center text-4xl font-bold'>Unity</p>
+                    <h2 className='text-3xl font-bold text-center py-8'>Traffic Simulator</h2>
+                    <p className='text-gray-400 text-center text-xl font-medium'>For the purpose of driving concept education</p>
                     <div className='text-center font-medium'>
-                        <p className='py-2 border-b mx-8 mt-8'>500 GB Storage</p>
+                        <p className='py-2 border-b mx-8 mt-8'>Unity/Blender/RenderDoc</p>
                         <p className='py-2 border-b mx-8'>1 Granted User</p>
                         <p className='py-2 border-b mx-8'>Send up to 2 GB</p>
                     </div>
