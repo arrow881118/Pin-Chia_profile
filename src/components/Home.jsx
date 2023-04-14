@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 const Hero = () => {
   return (
-    <section className='w-full text-black bg-white rounded-lg' id='home'>
+    <section className='w-full text-black bg-white' id='home'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <p className='text-2xl text-black font-bold p-2'>
           HELLO!
