@@ -5,11 +5,14 @@ const About = () => {
   return (
     <section className='w-full bg-white py-10 px-4 ' id='about'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-        <div className='w-[400px] mx-auto flex flex-col'>
+      {/* <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'> */}
+        <div className='max-w-[400px] mx-auto flex flex-col'>
+        {/* <div className='w-[400px] mx-auto flex flex-col'> */}
           <img className='mx-auto my-4 rounded-lg' src={Portrait} alt='/' />
           <h1 className='mx-auto my-2 text-slate-900 font-serif'>LIFE PHILOSOPHY</h1>
           <p translation="Amanda go go go!"className='w-[300px] h-[24px] before:content-["子曰：「參乎！吾道一以貫之。」"] hover:before:content-[attr(translation)] mx-auto my-2 text-[#3664e1] md:text-xl sm:text font-serif text-center'></p>
         </div>
+        {/* <div className=' mx-auto flex flex-col'> */}
         <div className='w-[400px] mx-auto flex flex-col'>
           <h1 className='mx-auto md:text-4xl text-slate-900 sm:text-3xl text-2xl font-bold py-5'>About me</h1>
           <p className='mx-auto  text-slate-600 md:text-xl sm:text-xs font-bold text-left '>
