@@ -4,7 +4,7 @@ import Portrait from '../assets/portrait.png';
 const About = () => {
   return (
     <section className='w-full bg-white py-10 px-4 ' id='about'>
-      <div className='max-w-[1240px] mx-auto grid md:grid-cols-2  justify-center'>
+      <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 space-x-7 justify-center'>
       {/* <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'> */}
         <div className='max-w-[400px] mx-auto flex flex-col'>
         {/* <div className='w-[400px] mx-auto flex flex-col'> */}
