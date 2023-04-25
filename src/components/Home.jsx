@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <Typed
             className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-            strings={[' beef noodle ', ' pasta ', ' ramen ']}
+            strings={[' steak ', ' pasta ', ' ramen ']}
             typeSpeed={120}
             backSpeed={140}
             loop
@@ -27,9 +27,9 @@ const Hero = () => {
             for dinner. 
           </p>
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>Ironically, struggle with next meal but chose the university within a minute.</p>
+        <p className='md:text-2xl text-xl font-bold text-gray-500'>Ironically, struggle with the next meal but chose the university within a minute.</p>
         <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>
-          <a href='https://www.canva.com/design/DAFf-QvBvNw/FaHoL_ZfHXqy51D1xfO0Wg/edit?utm_content=DAFf-QvBvNw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>DOWNLOAD CV</a>
+          <a href='https://www.canva.com/design/DAFf-QvBvNw/OkMRzLOWyUyPgiH41qFy1A/view?utm_content=DAFf-QvBvNw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'>Resume</a>
         </button>
       </div>
     </section >

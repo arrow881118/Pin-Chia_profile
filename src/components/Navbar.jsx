@@ -11,7 +11,10 @@ const Navbar = () => {
 
   return (
     <nav className='flex justify-between items-center bg-gray-700 max-w-full h-16 z-50 mx-auto px-4 text-white sticky top-0 '>
-      <span class="text-3xl font-bold text-[#00df9a]"> Pin-Chia.</span>
+      <button>
+        <Link to="home" spy={true} smooth={true} offset={-100} duration={500} className="text-3xl font-bold text-[#00df9a]">Pin-Chia.</Link>
+      </button>
+      {/* <span class="text-3xl font-bold text-[#00df9a]"> Pin-Chia.</span> */}
       {/* <h1 className='text-3xl font-bold text-[#00df9a] '>Pin-Chia.</h1> */}
       <ul className='hidden md:flex'>
         <li className='p-4'>

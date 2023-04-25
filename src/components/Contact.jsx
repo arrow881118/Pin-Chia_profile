@@ -1,33 +1,28 @@
 import React from 'react';
+import { Link } from '@react-email/link';
 
 const Newsletter = () => {
   return (
-    <div className='w-full py-16 bg-gray-800 text-white px-4' id='contact'>
-      <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
-        <div className='lg:col-span-2 my-4'>
-          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
-            Want tips & tricks to optimize your flow?
-          </h1>
-          <p>Sign up to our newsletter and stay up to date.</p>
-        </div>
-        <div className='my-4'>
-          <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
-            <input
-              className='p-3 flex w-full rounded-md text-black'
-              type='email'
-              placeholder='Enter Email'
-            />
-            <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
-              Notify Me
-            </button>
-          </div>
-          <p>
-            We care bout the protection of your data. Read our{' '}
-            <span className='text-[#00df9a]'>Privacy Policy.</span>
-          </p>
-        </div>
+    <div className='w-full py-10 bg-gray-800 text-white px-4' id='contact'>
+      <div className='max-w-[1240px] mx-auto grid-rows-3 text-center '>
+        {/* <div className='grid text-center w-full'> */}
+        {/* <div className='lg:col-span-2 my-4'> */}
+        <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold'>
+          Get In Touch
+        </h1>
+        <p className='py-4'>Whether you have a question or just want to say hi,<br></br> I’ll try my best to get back to you!</p>
+        {/* </div> */}
+        <button className='bg-[#00df9a] rounded-md font-medium w-[200px] h-[50px]'>
+          {/* <a class="email-link" href="mailto:pinchiawang04@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a> */}
+          <Link href="mailto:pinchiawang04@gmail.com">
+            <p className='text-black'>Say Hello</p>
+          </Link>
+
+        </button>
+
       </div>
     </div>
+    // </div>
   );
 };
 

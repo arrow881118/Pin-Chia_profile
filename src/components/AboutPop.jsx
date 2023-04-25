@@ -16,7 +16,7 @@ export default function popup({ visible, onClose }) {
 
     return (
         <div id="container" onClick={handleOnClose} className='fixed -inset-7 mx-auto my-auto bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center'>
-            <div className=' overflow-auto overscroll-contain max-h-[700px] max-w-[1000px] bg-white p-2 rounded m-14'>
+            <div className=' overflow-auto overscroll-contain max-h-[650px] max-w-[1000px] bg-white p-2 rounded m-14'>
                 <h1 className='text-2xl text-slate-600 capitalize text-center font-serif'>
                     know myself better.
                 </h1>
