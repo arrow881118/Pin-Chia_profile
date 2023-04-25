@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+import { Link } from '@react-email/link';
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
         </h1>
         <div className='flex justify-center items-center'>
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
-            going to have 
+            going to have
           </p>
           <Typed
             className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
@@ -24,12 +25,15 @@ const Hero = () => {
             loop
           />
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
-            for dinner. 
+            for dinner.
           </p>
         </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500'>Ironically, struggle with the next meal but chose the university within a minute.</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>
-          <a href='https://www.canva.com/design/DAFf-QvBvNw/OkMRzLOWyUyPgiH41qFy1A/view?utm_content=DAFf-QvBvNw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'>Resume</a>
+        <button className='bg-[#00df9a] w-[100px] rounded-md font-medium my-6 mx-auto py-3 text-black'>
+          {/* <a href='https://www.canva.com/design/DAFf-QvBvNw/OkMRzLOWyUyPgiH41qFy1A/view?utm_content=DAFf-QvBvNw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'>Resume</a> */}
+          <Link href="https://www.canva.com/design/DAFf-QvBvNw/OkMRzLOWyUyPgiH41qFy1A/view?utm_content=DAFf-QvBvNw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+            <p className='text-black'>Resume</p>
+          </Link>
         </button>
       </div>
     </section >

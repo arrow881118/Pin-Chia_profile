@@ -2,6 +2,7 @@ import React from 'react';
 import Traffic from '../assets/traffic.png'
 import VR from '../assets/vr.png'
 import LG from '../assets/LG.png'
+import { Link } from '@react-email/link';
 
 const Cards = () => {
     return (
@@ -20,7 +21,10 @@ const Cards = () => {
                         <p className=' border-b mx-8 text-center'>Logitech G29/Keyboard</p>
                     </div>
                     <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>
-                        <a href='https://github.com/arrow881118/Traffic-Simulator'>Github</a>
+                        {/* <a href='https://github.com/arrow881118/Traffic-Simulator'>Github</a> */}
+                        <Link href="https://github.com/arrow881118/Traffic-Simulator">
+                            <p className='text-black'>Github</p>
+                        </Link>
                     </button>
                 </div>
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
@@ -34,7 +38,10 @@ const Cards = () => {
                         <p className=' border-b mx-8 text-center'>Vive VR</p>
                     </div>
                     <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>
-                        <a href='https://github.com/arrow881118/Art-Exhibition-VR'>Github</a>
+                        {/* <a href='https://github.com/arrow881118/Art-Exhibition-VR'>Github</a> */}
+                        <Link href="https://github.com/arrow881118/Art-Exhibition-VR">
+                            <p className='text-black'>Github</p>
+                        </Link>
                     </button>
                 </div>
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
