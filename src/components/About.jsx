@@ -4,9 +4,7 @@ import Popup from './AboutPop';
 
 const About = () => {
 
-
   const [showMyPopup, setShowMyPopup] = useState(false)
-
   const handleOnClose = () => setShowMyPopup(false)
 
   return (
