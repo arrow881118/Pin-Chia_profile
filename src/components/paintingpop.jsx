@@ -44,13 +44,13 @@ export default function popup({ visible, onClose }) {
                 </h1>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
                     <img className='mx-auto my-auto w-[200px] grid rounded-lg' src={adidas} alt='/' />
-                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-justify'>
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'>
                         Adidas Shoes<br></br>It was made of plaster and I made it right after the my dad bought me our first pair of father and son shoes.
                     </p>
                 </section>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
                     <img className='mx-auto my-auto w-[200px] grid rounded-lg' src={egypt} alt='/' />
-                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-justify'>
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'>
                         Egypt Gods.<br></br>I painted the whole plastic board then scratched the color off to draw.
                     </p>
                 </section>
@@ -59,7 +59,7 @@ export default function popup({ visible, onClose }) {
                 </h1>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
                     <img className='mx-auto my-auto w-[200px] grid rounded-lg' src={Lily} alt='/' />
-                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-justify'>
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'>
                         Moth Orchid. <br></br>I love that I could still tell the theme of it without see the label.
                     </p>
                 </section>
