@@ -31,7 +31,7 @@ export default function popup({ visible, onClose }) {
                 </section>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
                     <img className='mx-auto my-auto w-[400px] flex rounded-lg py-2' src={CNN} alt='/' />
-                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif '>
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-justify'>
                         Because of our world-famous dangerous roads, Parents in Taiwan forbid their
                         children choose motorcycle as their transportation. Without exception, I confront
                         the same problems when I discussed the topic with my family. In order to prove them
@@ -54,7 +54,7 @@ export default function popup({ visible, onClose }) {
                 </h2>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
                     <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={msx} alt='/' />
-                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif '>
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-justify'>
                         This is a 2016 Honda Grom. The reason I bought a second hand bike instead of a brand
                         new one is because of the lower price and known issues on this model usually solved by the
                         former owner. So as long as fimiliar the way of check on bike's condition and do not feel
@@ -116,7 +116,7 @@ export default function popup({ visible, onClose }) {
                         <p className='mx-auto my-auto text-slate-600 text-xl py-2 font-serif '>
                             Chain breaker<br></br>
                         </p>
-                        <p className='mx-auto my-auto text-slate-600 py-2 font-serif '>
+                        <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-justify '>
                             You can cut the chain to the length you need.
                             The origin chain on this bike was sized 420. It works, but scince the size are
                             not firm enough, I have to adjust the rear tire to keeps the chain tight by week.
