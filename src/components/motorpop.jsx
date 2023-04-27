@@ -4,6 +4,9 @@ import CNN from '../assets/CNN.png';
 import ridesafe from '../assets/ridesafe.png';
 import john from '../assets/john.png';
 import msx from '../assets/motorcycle.png';
+import basement from '../assets/basement.png';
+import torque from '../assets/torque.png';
+import chain from '../assets/chain.png';
 
 
 export default function popup({ visible, onClose }) {
@@ -99,7 +102,7 @@ export default function popup({ visible, onClose }) {
                     </div>
                 </section>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
-                    <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={msx} alt='/' />
+                    <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={torque} alt='/' />
                     <div>
                         <p className='mx-auto my-auto text-slate-600 text-xl py-2 font-serif '>
                             Torque wrench<br></br>
@@ -111,7 +114,7 @@ export default function popup({ visible, onClose }) {
                     </div>
                 </section>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
-                    <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={msx} alt='/' />
+                    <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={chain} alt='/' />
                     <div>
                         <p className='mx-auto my-auto text-slate-600 text-xl py-2 font-serif '>
                             Chain breaker<br></br>
@@ -126,6 +129,9 @@ export default function popup({ visible, onClose }) {
                         </p>
                     </div>
                 </section>
+                <section className='py-6 mx-auto grid border-b-2 border-gray-200'>
+                <p className='mx-auto my-auto text-slate-600 font-serif text-center'>To be continue......</p>
+            </section>
             </div>
         </div >
 

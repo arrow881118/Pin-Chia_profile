@@ -30,14 +30,14 @@ const Cards = () => {
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
                     <img className='rounded-lg w-40 h-32 mx-auto mt-[-3rem] bg-transparent' src={Bouldering} alt="/" />
                     <h2 className='text-3xl font-bold text-center py-5'>Bouldering</h2>
-                    <p className='text-gray-600 text-center text-xl font-medium'>University art exhibition</p>
+                    <p className='text-gray-600 text-center text-xl font-medium'>Improve strength and flexibility</p>
                     <div className='text-center font-medium'>
                         <p className='mx-8 text-xs pt-8 text-left'>Why</p>
                         <p className=' border-b mx-8  text-center'>Solving bouldering puzzles feels<br></br>like I am one of the Mario bros</p>
                         <p className='mx-8 text-xs pt-8 text-left'>Benefit</p>
                         <p className=' border-b mx-8 text-center'>Closer to be 8th HOKAGE</p>
                     </div>
-                    <button onClick={() => bsetShowMyPopup(true)} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Github</button>
+                    <button onClick={() => bsetShowMyPopup(true)} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>おうぎ</button>
                 </div>
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
                     <img className='rounded-lg w-40 h-32 mx-auto mt-[-3rem] bg-white' src={Bouldering} alt="/" />

@@ -31,7 +31,7 @@ export default function popup({ visible, onClose }) {
                         I was so disappointed in the world and everyone around me that I failed all of my
                         subjects intentionally so that I could be suspended from the University.  However,
                         all of this changed when Chen, then an acquaintance,  proposed to help me prepare
-                        for my finals knowing that I’d dropped out otherwise.<br></br>
+                        for my finals knowing that I’d dropped out otherwise.<br></br><br></br>
                         That was the first time I actually cared about my academic performance.
                         After becoming motivated to at least finished my bachelor's program, I passed a
                         coding exam that would make me qualified to start with my bachelor project.
@@ -41,16 +41,29 @@ export default function popup({ visible, onClose }) {
                     </p>
                 </section>
 
-                <h2 className='border-b-2 border-gray-500 text-2xl text-slate-600 capitalize text-center font-serif'>
+                <h2 className='border-b-2 border-gray-500 text-2xl text-slate-600 text-center font-serif'>
                     Deeper Comprehension of Being in a Relationship
                 </h2>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
                     <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={Friendship} alt='/' />
-                    <p className='mx-6 text-slate-600 py-2'>
+                    <p className='mx-6 text-slate-600 py-2 text-justify'>
                         This is a graduation photo of me and my two dearest friends (from left to right is 
-                        Liu, Chen and I).
-
-
+                        Liu, Chen and I). I'm never a social kind of guy and have some trouble with expressing 
+                        myself, so if anyone expect me to start a conversation, they gonna wait for 
+                        a long long time. Same things happened on the first couple months when we worked on 
+                        the school project, but they just be really patient with me and do their best
+                        to avoid me from feeling being the thrid wheel any time around them. So, as time go by
+                        we became really close friends.<br></br><br></br>
+                        Since being friend with them I become a happier and much more familier with how to 
+                        express myself because Chen always ask me bunch of odd questions and Liu always 
+                        took care of me by doing some nice gesture like asking me to ride home safely after we 
+                        finished dinner together or bought my family some souvenir when she go out.<br></br>
+                        <br></br>
+                        Being in this friendship means a lot to me and makes me realized what I can offer
+                        in a relationship and the appropriate way to do so. The things I precious the most 
+                        in this friendship is that we all care enough and share the same value of being sensitive
+                         to everythings, no matter is personal or not, we all try as hard as we could to avoid 
+                         hurting others.
                     </p>
                 </section>
                 <h3 className='border-b-2 border-gray-500 text-2xl text-slate-600 capitalize text-center font-serif'>
@@ -58,7 +71,7 @@ export default function popup({ visible, onClose }) {
                 </h3>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
                     <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={Family} alt='/' />
-                    <p className='mx-6 text-slate-600 py-2'>
+                    <p className='mx-6 text-slate-600 py-2 text-justify'>
                         family
                     </p>
                 </section>
