@@ -47,7 +47,7 @@ const Cards = () => {
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
                     <img className='rounded-lg w-40 h-32 mx-auto mt-[-3rem] bg-white' src={goldfish} alt="/" />
                     <h2 className='text-3xl font-bold text-center py-5'>Painting</h2>
-                    <p className='text-gray-600 text-center text-xl font-medium'>To be the One</p>
+                    <p className='text-gray-600 text-center text-xl font-medium'>To be the "One"</p>
                     <div className='text-center font-medium'>
                         <p className='mx-8 text-xs pt-8 text-left'>Why</p>
                         <p className=' border-b mx-8  text-centert'>Gave me the opportunity to be bold on <br></br>colors, dreaming and imagination</p>
