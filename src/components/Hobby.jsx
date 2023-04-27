@@ -25,7 +25,7 @@ const Cards = () => {
                         <p className='mx-8 text-xs pt-8 text-left'>Benefit</p>
                         <p className=' border-b mx-8'>Self-learning skill improved</p>
                     </div>
-                    <button onClick={() => msetShowMyPopup(true)}  className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>2016 Honda Grom</button>
+                    <button onClick={() => msetShowMyPopup(true)}  className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>read more</button>
                 </div>
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
                     <img className='rounded-lg w-40 h-32 mx-auto mt-[-3rem] bg-transparent' src={Bouldering} alt="/" />
@@ -37,7 +37,7 @@ const Cards = () => {
                         <p className='mx-8 text-xs pt-8 text-left'>Benefit</p>
                         <p className=' border-b mx-8 text-center'>Closer to be 8th HOKAGE</p>
                     </div>
-                    <button onClick={() => bsetShowMyPopup(true)} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>おうぎ</button>
+                    <button onClick={() => bsetShowMyPopup(true)} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>read more</button>
                 </div>
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
                     <img className='rounded-lg w-40 h-32 mx-auto mt-[-3rem] bg-white' src={Bouldering} alt="/" />
@@ -49,7 +49,7 @@ const Cards = () => {
                         <p className='mx-8 text-xs pt-8 text-left'>Control device</p>
                         <p className=' border-b mx-8 text-center'>Logitech G29/Keyboard</p>
                     </div>
-                    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+                    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>read more</button>
                 </div>
                 <Motorpop onClose={mhandleOnClose} visible={mshowMyPopup} />
                 <Boulderingpop onClose={bhandleOnClose} visible={bshowMyPopup} />

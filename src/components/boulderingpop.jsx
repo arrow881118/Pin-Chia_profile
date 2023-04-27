@@ -2,8 +2,9 @@ import React from 'react'
 import hokage from '../assets/hokage.png';
 import store from '../assets/store.png';
 import ridesafe from '../assets/ridesafe.png';
-import john from '../assets/john.png';
-import msx from '../assets/motorcycle.png';
+import me from '../assets/me.png';
+import sis from '../assets/sis.png';
+import bro from '../assets/bro.png';
 
 
 
@@ -47,14 +48,28 @@ export default function popup({ visible, onClose }) {
                     Mar 2023.
                 </h2>
                 <section className='py-6 mx-auto grid md:grid-cols-2 border-b-2 border-gray-200'>
-                    {/* <img className='mx-auto my-auto w-[200px] grid rounded-lg py-2' src={ridesafe} alt='/' /> */}
+                    <img className='mx-auto my-auto w-[200px] grid rounded-lg' src={me} alt='/' />
                     <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'>
                         After I finished my military service, I could finally have some time 
                         to go bouldering.
                     </p>
-                    {/* <img className='mx-auto my-auto w-[200px] grid rounded-lg py-2' src={john} alt='/' /> */}
                     <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'></p>
                 </section>
+                <section className='py-6 mx-auto grid md:grid-cols-2 border-b-2 border-gray-200'>
+                    <img className='mx-auto my-auto w-[200px] grid rounded-lg' src={sis} alt='/' />
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'>
+                        My sister from Germany.
+                    </p>
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'></p>
+                </section>
+                <section className='py-6 mx-auto grid md:grid-cols-2 border-b-2 border-gray-200'>
+                    <img className='mx-auto my-auto w-[200px] grid rounded-lg' src={bro} alt='/' />
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'>
+                        My cousin.
+                    </p>
+                    <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-center'></p>
+                </section>
+               
                 <section className='py-6 mx-auto grid border-b-2 border-gray-200'>
                     <p className='mx-auto my-auto text-slate-600 font-serif text-center'>To be continue......</p>
                 </section>

@@ -7,7 +7,7 @@ import msx from '../assets/motorcycle.png';
 import basement from '../assets/basement.png';
 import torque from '../assets/torque.png';
 import chain from '../assets/chain.png';
-
+import buy from '../assets/buyday.png';
 
 export default function popup({ visible, onClose }) {
 
@@ -56,7 +56,7 @@ export default function popup({ visible, onClose }) {
                     May 2022.
                 </h2>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
-                    <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={msx} alt='/' />
+                    <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={buy} alt='/' />
                     <p className='mx-auto my-auto text-slate-600 py-2 font-serif text-justify'>
                         This is a 2016 Honda Grom. The reason I bought a second hand bike instead of a brand
                         new one is because of the lower price and known issues on this model usually solved by the
@@ -91,7 +91,7 @@ export default function popup({ visible, onClose }) {
                     </p>
                 </h3>
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
-                    <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={msx} alt='/' />
+                    <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={basement} alt='/' />
                     <div>
                         <p className='mx-auto my-auto text-slate-600 text-xl py-2 font-serif '>
                             My Basement<br></br>
@@ -125,7 +125,7 @@ export default function popup({ visible, onClose }) {
                             not firm enough, I have to adjust the rear tire to keeps the chain tight by week.
                             That's too exhausted, so I change it to sized 428. Science then, never worried about it!<br></br>
                             Bad news, to change to sized of the chain you have to replace the sprocket in
-                            same sized too. And that is a lot of work (Included to tear the rear tire down).
+                            same sized too. And that is a lot of work ( included to remove the rear tire).
                         </p>
                     </div>
                 </section>
