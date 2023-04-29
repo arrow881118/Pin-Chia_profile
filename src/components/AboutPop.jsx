@@ -72,7 +72,12 @@ export default function popup({ visible, onClose }) {
                 <section className='py-6 mx-auto grid md:grid-cols-2 my-auto item-center border-b-2 border-gray-200'>
                     <img className='mx-auto my-auto w-[200px] flex rounded-lg' src={Family} alt='/' />
                     <p className='mx-6 text-slate-600 py-2 text-justify'>
-                        family
+                        Althrough growing up in a family that hanging out with relatives all the time, I didn't 
+                        think a lot about how it means to me until all the children in the family grown up and about 
+                        to having their own carreer ,lifestyle choices or even thinking whether start a family with 
+                        others. I guess that the idea of everyone around me move on with their lives caught me off guard,
+                        so there was a time of me don't know how to deal with my life. But after a period of time of 
+                        thinking and learning, I realized that as long as I know where my heart is, eveythings gonna be alright.
                     </p>
                 </section>
             </div>

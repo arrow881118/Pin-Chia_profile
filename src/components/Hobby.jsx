@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Motor from '../assets/motorcycle.png'
-import Bouldering from '../assets/bouldering.png'
+import store from '../assets/store.png'
 import goldfish from '../assets/goldfish.jpg'
 import Motorpop from './motorpop';
 import Boulderingpop from './boulderingpop';
@@ -33,7 +33,7 @@ const Cards = () => {
                     <button onClick={() => msetShowMyPopup(true)}  className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>read more</button>
                 </div>
                 <div className='w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
-                    <img className='rounded-lg w-40 h-32 mx-auto mt-[-3rem] bg-transparent' src={Bouldering} alt="/" />
+                    <img className='rounded-lg w-40 h-32 mx-auto mt-[-3rem] bg-transparent' src={store} alt="/" />
                     <h2 className='text-3xl font-bold text-center py-5'>Bouldering</h2>
                     <p className='text-gray-600 text-center text-xl font-medium'>Improve Strength and Flexibility</p>
                     <div className='text-center font-medium'>
