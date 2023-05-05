@@ -52,7 +52,7 @@ const Cards = () => {
                         <p className='mx-8 text-xs pt-8 text-left'>Why</p>
                         <p className=' border-b mx-8  text-centert'>Gave me the opportunity to be bold on <br></br>colors, dreaming and imagination</p>
                         <p className='mx-8 text-xs pt-8 text-left'>Influence</p>
-                        <p className=' border-b mx-8 text-center'></p>
+                        <p className=' border-b mx-8 text-center'>Keep an a open mind</p>
                     </div>
                     <button onClick={() => psetShowMyPopup(true)} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>read more</button>
                 </div>
